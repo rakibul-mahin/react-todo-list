@@ -1,0 +1,8 @@
+.title-bar{
+    margin: 2.5rem;
+    text-align: center;
+    background: linear-gradient(to right,#ffb347,#ffcc33);
+    padding: 2rem;
+    border-radius: 25px;
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+.container-list{
+    background: linear-gradient(to right,#ffcc33,#ffb347);
+    margin: 1rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    border-radius: 15px;
+    font-size: 1.5em;
+    color: rgb(27, 126, 219);
+    transition: font-size 0.5s ease-in;
+}
+
+li{
+    list-style: none;
+}
+
+.del-btn{
+    border-radius: 18px;
+    background: #fc354c;
+    color: #fff;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    transition: background-color ease-in 0.25s;
+    margin-left: 10px;
+    padding: 1rem;
+    transition: background-color 0.5s ease-in-out;
+    transition: font-size 0.5s ease-in;
+}
+
+.container-list:hover{
+    font-size: 75px;
+}
+
+.del-btn:hover{
+    background: #0abfbc;
+    font-size: 35px;
+}

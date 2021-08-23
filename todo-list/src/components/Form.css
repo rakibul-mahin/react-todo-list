@@ -1,0 +1,32 @@
+.container{
+    background: linear-gradient(to right,#ffb347,#ffcc33);
+    margin: 0.25rem 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field{
+    width: 95%;
+    border-radius: 15px;
+    outline: none;
+    padding: 1rem;
+    border: 0;
+}
+
+.add-btn{
+    border-radius: 18px;
+    background: #fc354c;
+    color: #fff;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    transition: background-color ease-in 0.25s;
+    margin-left: 10px;
+}
+
+.add-btn:hover{
+    background: #0abfbc;
+}
